@@ -4,6 +4,8 @@ members = [
   "packageB",
 ]
 
+resolver = "1"
+
 [workspace.metadata.raze]
 workspace_path = "//cargo"
 package_aliases_dir = "cargo"

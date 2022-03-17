@@ -3,5 +3,5 @@ edition = "2018"
 name = "packageB"
 version = "0.0.1"
 
-[dependencies]
-clap = "3.0.14"
+[dev-dependencies]
+clap3 = {package = "clap", version = "3.0.14"}
