@@ -1,0 +1,8 @@
+[package]
+edition = "2018"
+name = "packageA"
+version = "0.0.1"
+
+[dependencies]
+clap = "2.33.3"
+packageB = {path = "../packageB"}

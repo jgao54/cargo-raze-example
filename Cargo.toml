@@ -1,0 +1,14 @@
+[workspace]
+members = [
+  "packageA",
+  "packageB",
+]
+
+[workspace.metadata.raze]
+workspace_path = "//cargo"
+package_aliases_dir = "cargo"
+genmode = "Remote"
+targets = [
+    "x86_64-apple-darwin",
+    "x86_64-unknown-linux-gnu",
+]

@@ -1,0 +1,10 @@
+load("@rules_rust//rust:rust.bzl", "rust_binary")
+
+rust_library(
+    name = "packageA",
+    srcs = glob(["src/**/*.rs"]),
+    deps = [
+        "//packageB",
+        "//packageA/cargo:clap",
+    ],
+)
